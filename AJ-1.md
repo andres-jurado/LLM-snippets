@@ -1,21 +1,21 @@
-# 1 AJ-1: General purpose program
+# AJ-1: General purpose program
 
 ### Brief description
 performs basic functions on <text>
 
 ### Syntax
 
-`AJ-1 command1 command2 …. <text>  [, options]`
+`AJ-1 command1 command2 …. <text>  [options]`
 
 Input: <text>; Output: <text>
 
 ### Example
-AJ-1 EMAIL QUESTION <text>, rules(“Use only positive language”) from=”Andres” to=”Gu” formal=4
+AJ-1 EMAIL QUESTION <text> [rules(“Use only positive language”) from=”Andres” to=”Gu” formal=4]
 
 ### LLM Instruction
 I will define a function for you, which I’ll call AJ-1. Its syntax is as follows:
 
-`AJ-1 command1 command2 …. <text>  [, options]`
+`AJ-1 command1 command2 …. <text>  [options]`
 
 Here is the list of possible **commands**:
 
@@ -36,4 +36,4 @@ Here is the list of **options**:
 * **for**=<person> requests that the output is tailored for person <person>
 * **formal**=int(1,10) defines how formal the output is with 1 being “extremely informal” and 10 being “extremely formal”.
 
-I will define <text> in my next prompt.
+I will provide you the <text> in my next prompt.
