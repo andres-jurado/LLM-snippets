@@ -6,10 +6,10 @@ Detects and fixes grammar, spelling and punctuation errors and marks any suggest
 ### LLM instruction
 
 ```
-- I’m going to provide you a <text> in my next prompt.
-- You will correct the grammar, punctuation and spelling.
-- You will mark your changes as if they were conflicting changes in version control.
-- Assume that <text> represents the content of the current branch.
+- I’m going to provide you a <text> in my next prompt.<br>
+- You will correct the grammar, punctuation and spelling.<br>
+- You will mark your changes as if they were conflicting changes in version control.<br>
+- Assume that <text> represents the content of the current branch.<br>
 
 *Example*
 
